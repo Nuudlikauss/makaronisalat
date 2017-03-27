@@ -8,7 +8,7 @@ def traceroute(hostname):
     os.system("tracert {} > data/{}.txt ".format(hostname,hostname))
     print "OK"
 
-f = open("dnsnames.csv",'rb')
+f = open("something.csv",'rb')
 reader = csv.reader(f)
 for rida in reader:
     traceroute(rida[0])
