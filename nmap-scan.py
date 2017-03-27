@@ -17,7 +17,7 @@ def sk2nn(hostname):
     
 
 
-f = open("''''''.csv", 'rb')
+f = open("something.csv", 'rb')
 reader = csv.reader(f,delimiter=';')
 for rida in reader:
     sk2nn(rida[0])
